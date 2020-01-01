@@ -37,14 +37,47 @@ p + h2 {
 
 /* message under the logo */
 
-#message {
+#changeMessage {
+    font-family: 'Varela', sans-serif;
+    float: left;
+    clear: left;
+    background-color: #ffde97;
+    color: #002c5a;
+    width: 170px;
+    padding: 44px 30px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#normalMessage {
   float: left;
   clear: left;
-  background-color: #ffb87a;
+  background-color: antiquewhite;
   color: #1e1b1e;
   width:170px;
   padding: 18px 30px;
   text-align: center;}
+
+.defaultStyle {
+  float: left;
+  clear: left;
+  background-color: antiquewhite;
+  color: #1e1b1e;
+  width:170px;
+  padding: 18px 30px;
+  text-align: center;}
+
+.changeStyle {
+    font-family: 'Varela', sans-serif;
+    float: left;
+    clear: left;
+    background-color: #91cefd;
+    color: #ef4f7c;
+    width: 170px;
+    padding: 48px 30px;
+    font-size: 1.25rem;
+    text-align: center;
+}
 
 /* black bar across the right hand side of the page */
 
@@ -128,3 +161,10 @@ p + h2 {
 
 .data {
   padding: 10px;}
+
+#discountBtn{
+  background-color: #f14100;
+  color: #fff;
+  font-size: 1.2rem;
+  height: 50px;
+}
